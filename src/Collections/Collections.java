@@ -72,7 +72,7 @@ public class Collections {
          states.remove(CA);
          states.remove(NJ);
          
-         System.out.println("CA and NJ have been taken from the list.");
+         System.out.println("CA and NJ have been taken from the list.\n");
          for (int i= 0; i< states.size(); i++){
          
          System.out.println("Name: " + states.get(i).getName());
@@ -122,6 +122,7 @@ public class Collections {
         hashSet.add("South Carolina");
         hashSet.add("California");
         
+        
         System.out.print("Hash Set results\n\n");
  
         System.out.println(hashSet + "\n");
@@ -133,13 +134,14 @@ public class Collections {
         
         
         //LinkedList 
+        System.out.println("Print out the Linked List (Queue)");
         
         Queue queueA = new LinkedList();
         
         queueA.add("CA");
         queueA.add("NJ");
-        queueA.add("SC");
         queueA.add("TN");
+        queueA.add("SC");
         
 
     
