@@ -3,14 +3,22 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package MVC.Control;
+package MVC.View;
 
 /**
  *
  * @author Todd
  */
-public class InventoryControl {
+public class ViewClass {
+    boolean done = false;
     
+    private void display(){
+        MVC.Control.Control.getNumber();
+    while (!done ) {
     
+        System.out.println("Guess a number ");
+    }
+
+}
     
 }

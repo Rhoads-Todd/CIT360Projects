@@ -3,12 +3,12 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Collections;
+package MVC.Control;
 
 /**
  *
  * @author Todd
  */
-public class HashMap {
+public class Control {
     
 }
