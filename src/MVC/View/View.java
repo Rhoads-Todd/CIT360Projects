@@ -18,18 +18,22 @@ public class View {
     public void display(){
 
     int choice;
+        boolean valid = false;
     
    
     
-    System.out.println("Welcome to the game. Choose your weapon: ");
+while(!valid)    {System.out.println("Welcome to the game. Choose your weapon: ");
     System.out.println("1. Rock\n"
     + "2. Paper\n"
     + "3. Scissors\n");
     
     Scanner scanner = new Scanner(System.in);
     String input = scanner.nextLine();
-    choice = Integer.parseInt(input);
-    if (choice == 1 || choice == 2 || choice == 3){
+    
+    if (input.equals("1") || input.equals("2") || input.equals("3") ){
+    
+    
+    valid= true;
     
         choice = Integer.parseInt(input);
               
@@ -37,17 +41,15 @@ public class View {
         Control.compareWeakness();
         
     }
-    else {
-
-    System.out.println("Please enter a number between 1 - 3");
-
-
-}
-    }
-
-}
-
     
+    else{ 
+     System.out.println("Please enter a number between 1 - 3");
+     }
+}}
+}
+
+
+  
    
 
 
