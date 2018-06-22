@@ -10,27 +10,29 @@ package MVC.Model;
  * @author Todd
  */
 public class Game {
-   Player player;
-   Enemy [] enemies;
+    GameObject playerObject;
+    GameObject computerObject;
 
     public Game() {
     }
+    
+    
 
-    public Player getPlayer() {
-        return player;
+    public GameObject getPlayerObject() {
+        return playerObject;
     }
 
-    public void setPlayer(Player player) {
-        this.player = player;
+    public void setPlayerObject(GameObject playerObject) {
+        this.playerObject = playerObject;
     }
 
-    public Enemy[] getEnemies() {
-        return enemies;
+    public GameObject getComputerObject() {
+        return computerObject;
     }
 
-    public void setEnemies(Enemy[] enemies) {
-        this.enemies = enemies;
+    public void setComputerObject(GameObject computerObject) {
+        this.computerObject = computerObject;
     }
-   
-   
+    
+    
 }
