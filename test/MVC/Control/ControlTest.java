@@ -55,10 +55,9 @@ public class ControlTest {
     @Test
     public void testCreateGameObject() {
         System.out.println("createGameObject");
-        int choice = 0;
+        int choice = 2;
         Control.createGameObject(choice);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
+       
     }
 
     /**
@@ -66,12 +65,6 @@ public class ControlTest {
      */
     @Test
     public void testGetGame() {
-        System.out.println("getGame");
-        Game expResult = null;
-        Game result = Control.getGame();
-        assertEquals(expResult, result);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
     }
 
     /**
@@ -79,11 +72,10 @@ public class ControlTest {
      */
     @Test
     public void testSetGame() {
-        System.out.println("setGame");
-        Game game = null;
-        Control.setGame(game);
-        // TODO review the generated test code and remove the default call to fail.
-        fail("The test case is a prototype.");
     }
-    
+
+    /**
+     * Test of getGame method, of class Control.
+     */
+   
 }

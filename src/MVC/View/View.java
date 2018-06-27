@@ -19,8 +19,9 @@ public class View {
 
     int choice;
         boolean valid = false;
+        boolean quit = false;
     
-   
+while (!quit){   
     
 while(!valid)    {System.out.println("Welcome to the game. Choose your weapon: ");
     System.out.println("1. Rock\n"
@@ -29,8 +30,12 @@ while(!valid)    {System.out.println("Welcome to the game. Choose your weapon: "
     
     Scanner scanner = new Scanner(System.in);
     String input = scanner.nextLine();
+     if(input.equals("Q")){
+    valid = true;
+    quit = true;
     
-    if (input.equals("1") || input.equals("2") || input.equals("3") ){
+    }
+            else if (input.equals("1") || input.equals("2") || input.equals("3") ){
     
     
     valid= true;
@@ -39,7 +44,7 @@ while(!valid)    {System.out.println("Welcome to the game. Choose your weapon: "
               
         Control.createGameObject(choice);
         Control.compareWeakness();
-        
+        valid = false;
     }
     
     else{ 
@@ -47,7 +52,7 @@ while(!valid)    {System.out.println("Welcome to the game. Choose your weapon: "
      }
 }}
 }
-
+}
 
   
    

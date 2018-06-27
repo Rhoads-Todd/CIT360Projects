@@ -14,6 +14,7 @@ import MVC.Control.Control;
 public class DrawView {
     public void display(){
    
-        System.out.println("You chose " +MVC.Control.Control.getGame().getPlayerObject().getName() +" The computer chose " + MVC.Control.Control.getGame().getComputerObject().getName() + " There was no winner.");
+        System.out.println("You chose " +MVC.Control.Control.getGame().getPlayerObject().getName() +
+                " The computer chose " + MVC.Control.Control.getGame().getComputerObject().getName() + " There was no winner.\n");
     }
 }

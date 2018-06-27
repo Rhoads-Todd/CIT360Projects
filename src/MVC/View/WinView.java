@@ -14,7 +14,8 @@ import MVC.Control.Control;
 public class WinView {
      public void display(){
     
-    System.out.println("You chose " +MVC.Control.Control.getGame().getPlayerObject().getName() +" The computer chose " + MVC.Control.Control.getGame().getComputerObject().getName() + " You win!");
+    System.out.println("You chose " +MVC.Control.Control.getGame().getPlayerObject().getName()+ "!" +
+            " The computer chose " + MVC.Control.Control.getGame().getComputerObject().getName() +"!" + " You win!\n");
     
     }
 }
