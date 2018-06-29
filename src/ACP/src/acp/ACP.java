@@ -37,6 +37,8 @@ public class ACP {
         appController.mapCommand("Square", squareHandler);
         appController.mapCommand("Circle", circleHandler);
         Scanner scanner = new Scanner(System.in);
+        
+        System.out.println("Please enter the length of  the radius or sides: ");
         double input = Double.parseDouble(scanner.nextLine());
         
         data.put("length", input);
