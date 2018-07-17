@@ -6,11 +6,13 @@ and open the template in the editor.
 -->
 <html>
     <head>
-        <title>Todd</title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Todd's Servlet</title>
     </head>
     <body>
-        <div>Check it <a href = "/ToddServ/ToddServlet">out</a> </div>
+        <form method="post" action="login">
+        Email ID:<input type="text" name="email" /><br/>
+        Password:<input type="text" name="pass" /><br/>
+        <input type="submit" value="login" />
+        </form>
     </body>
 </html>
